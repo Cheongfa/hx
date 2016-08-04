@@ -1,0 +1,4 @@
+#!/bin/bash
+imageTag=$(date +%s)
+docker build -t="10.10.103.185:5000/changfayu/myapp:${imageTag}" .
+docker push 10.10.103.185:5000/changfayu/myapp:${imageTag}

@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: huaxin
+spec:
+  containers:
+  - image: 10.10.103.185:5000/changfayu/myapp
+    name: war
+    lifecycle:
+      postStart:
+        exec:
+          command:
+            - "cp"
+            - "/hx-1.war"
+            - "/app"
+    volumeMounts:
+    - mountPath: /app
+      name: app-volume
+  - image: resouer/mytomcat:7.0
+    name: tomcat
+    command: ["sh","-c","/root/apache-tomcat-7.0.42-v2/bin/start.sh"]
+    volumeMounts:
+    - mountPath: /root/apache-tomcat-7.0.42-v2/webapps
+      name: app-volume
+    ports:
+    - containerPort: 8080
+      hostPort: 8008 
+  volumes:
+  - name: app-volume
+    emptyDir: {}

@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: huaxin-dev
+spec:
+  ports:
+  - name: http
+    port: 8080
+    targetPort: 8008
+    protocol: TCP
+  selector:
+    app: huaxin
+    role: frontend
+    env: production

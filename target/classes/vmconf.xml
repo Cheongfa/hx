@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<VMS>
+    <VM>
+        <job>cloud_controller_ng</job>
+        <index>0</index>
+        <ip>10.10.102.63</ip>
+    </VM>
+
+    <VM>
+        <job>database</job>
+        <index>0</index>
+        <ip>10.10.102.62</ip>
+    </VM>
+
+    <VM>
+        <job>dea</job>
+        <index>0</index>
+        <ip>10.10.102.71</ip>
+    </VM>
+
+    <VM>
+        <job>etcd</job>
+        <index>0</index>
+        <ip>10.10.102.64</ip>
+    </VM>
+
+    <VM>
+        <job>gorouter</job>
+        <index>0</index>
+        <ip>10.10.102.70</ip>
+    </VM>
+
+    <VM>
+        <job>haproxy</job>
+        <index>0</index>
+        <ip>10.10.102.66</ip>
+    </VM>
+
+    <VM>
+        <job>hm9000</job>
+        <index>0</index>
+        <ip>10.10.102.67</ip>
+    </VM>
+
+    <VM>
+        <job>loggregator</job>
+        <index>0</index>
+        <ip>10.10.102.68</ip>
+    </VM>
+
+    <VM>
+        <job>loggregator_trafficcontroller</job>
+        <index>0</index>
+        <ip>10.10.102.69</ip>
+    </VM>
+
+    <VM>
+        <job>nats</job>
+        <index>0</index>
+        <ip>10.10.102.60</ip>
+    </VM>
+
+    <VM>
+        <job>nfs_server</job>
+        <index>0</index>
+        <ip>10.10.102.61</ip>
+    </VM>
+
+    <VM>
+        <job>uaa</job>
+        <index>0</index>
+        <ip>10.10.102.65</ip>
+    </VM>
+
+    <VM>
+        <job>1</job>
+        <index>1</index>
+        <ip>10.10.103.63</ip>
+    </VM>
+
+    <VM>
+        <job>2</job>
+        <index>1</index>
+        <ip>10.10.103.62</ip>
+    </VM>
+
+    <VM>
+        <job>3</job>
+        <index>1</index>
+        <ip>10.10.103.71</ip>
+    </VM>
+
+    <VM>
+        <job>4</job>
+        <index>1</index>
+        <ip>10.10.103.64</ip>
+    </VM>
+
+    <VM>
+        <job>5</job>
+        <index>1</index>
+        <ip>10.10.103.70</ip>
+    </VM>
+
+    <VM>
+        <job>6</job>
+        <index>1</index>
+        <ip>10.10.103.66</ip>
+    </VM>
+
+    <VM>
+        <job>7</job>
+        <index>1</index>
+        <ip>10.10.103.67</ip>
+    </VM>
+
+    <VM>
+        <job>8</job>
+        <index>1</index>
+        <ip>10.10.103.68</ip>
+    </VM>
+
+    <VM>
+        <job>9</job>
+        <index>1</index>
+        <ip>10.10.103.69</ip>
+    </VM>
+
+    <VM>
+        <job>10</job>
+        <index>1</index>
+        <ip>10.10.103.60</ip>
+    </VM>
+
+    <VM>
+        <job>11</job>
+        <index>1</index>
+        <ip>10.10.103.61</ip>
+    </VM>
+
+    <VM>
+        <job>12</job>
+        <index>1</index>
+        <ip>10.10.103.65</ip>
+    </VM>
+</VMS>
